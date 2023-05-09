@@ -76,7 +76,7 @@ If the number of data points in the dataset is large, then gradient descent take
     
 * In SGD, instead of using all the data points at each iteration for updation, it uses randomly selected k points and performs the same update for multiple iterations.
     
-* After some iterations, the x\* obtained by SGD will be the **same** as the w\* obtained by GD.
+* After some iterations, the x\* obtained by SGD will be the **same** as the x\* obtained by GD.
     
 
 At each iteration set of random points chosen are different. Suppose there are n data points, if:
