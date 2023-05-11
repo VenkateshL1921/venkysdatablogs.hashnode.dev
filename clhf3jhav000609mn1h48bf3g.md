@@ -30,7 +30,7 @@ Hence, we need an algorithm to reduce the loss of this complex function and find
 
 In Gradient descent, the update equation at every iteration is given as follows:
 
-$$x_i = x_{i-1} + \eta *(-\frac{df}{dy}){x{i-1}}$$
+$$x_i = x_{i-1} + \eta *(-\frac{df}{dy})_{x_{i-1}}$$
 
 $$Where,\space x_i=new \space value,\space x_{i-1}=old \space value,\space \eta= Learning \space rate$$
 
@@ -48,7 +48,7 @@ $$x_1 = x_0 + \eta *(-\frac{df}{dy})_{x_0}$$
 * Similarly, compute x2, x3 , .........., x\_k-1, x\_k
     
 
-$$Where, x_k = x_{k-1} + \eta *(-\frac{df}{dy}){x{k-1}}$$
+$$Where, x_k = x_{k-1} + \eta *(-\frac{df}{dy})_{x_{k-1}}$$
 
 * Continue the loop till (x\_k - x\_k-1) is very very small. This is the **point of convergenc**e and we terminate the loop at this stage and declare x\* = x\_k as minima.
     
